@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计模式 | 天宇博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/learn/assets/css/0.styles.f9e7e70e.css" as="style"><link rel="preload" href="/learn/assets/js/app.a974e0bb.js" as="script"><link rel="preload" href="/learn/assets/js/2.c0eac482.js" as="script"><link rel="preload" href="/learn/assets/js/10.86b8a31b.js" as="script"><link rel="prefetch" href="/learn/assets/js/11.eea5211c.js"><link rel="prefetch" href="/learn/assets/js/12.533b1c3b.js"><link rel="prefetch" href="/learn/assets/js/13.45148aac.js"><link rel="prefetch" href="/learn/assets/js/14.6d13aaba.js"><link rel="prefetch" href="/learn/assets/js/3.b1dcc54f.js"><link rel="prefetch" href="/learn/assets/js/4.7a20f468.js"><link rel="prefetch" href="/learn/assets/js/5.d6b6314a.js"><link rel="prefetch" href="/learn/assets/js/6.b7624161.js"><link rel="prefetch" href="/learn/assets/js/7.55a36859.js"><link rel="prefetch" href="/learn/assets/js/8.3f594faa.js"><link rel="prefetch" href="/learn/assets/js/9.a705eaac.js">
+    <link rel="stylesheet" href="/learn/assets/css/0.styles.f9e7e70e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/learn/" class="home-link router-link-active"><!----> <span class="site-name">天宇博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/learn/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="天宇的博客" class="dropdown-title"><span class="title">天宇的博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="天宇的博客" class="mobile-dropdown-title"><span class="title">天宇的博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  Github
+</a></li><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  掘金
+</a></li><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  知乎
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/learn/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="天宇的博客" class="dropdown-title"><span class="title">天宇的博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="天宇的博客" class="mobile-dropdown-title"><span class="title">天宇的博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  Github
+</a></li><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  掘金
+</a></li><li class="dropdown-item"><!----> <a href="/learn/technics/.html" class="nav-link">
+  知乎
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/learn/" aria-current="page" class="sidebar-link">写在前面</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>思想篇</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>思维篇</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>技术篇</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="设计模式"><a href="#设计模式" class="header-anchor">#</a> 设计模式</h3> <ol><li>发布订阅
+一种对象间一对多的依赖关系(不是综艺节目以一敌百那种)，当一个对象的状态发送改变时，所有依赖于它的对象都将得到状态改变的通知
+作用</li> <li>广泛应用于异步编程中(替代了传递回调函数)</li> <li>对象之间松散耦合的编写代码</li></ol> <p>关键步骤。
+订阅者</p> <ol><li>在一个对象中定义事件类型。</li> <li>事件类型对应的回调函数数组。</li></ol> <p>发布者
+1.对应事件类型的数组回调函数依次执行。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/learn/assets/js/app.a974e0bb.js" defer></script><script src="/learn/assets/js/2.c0eac482.js" defer></script><script src="/learn/assets/js/10.86b8a31b.js" defer></script>
+  </body>
+</html>
